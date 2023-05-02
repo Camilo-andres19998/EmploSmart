@@ -59,12 +59,12 @@
 							</fieldset>
 						</div>
 
-                        <div class="col-lg-6">
+						<div class="col-lg-6">
 							<fieldset class="form-group">
 								<label class="form-label semibold" for="exampleInput">Categoria</label>
 								<select id="cat_id" name="cat_id" class="form-control">
-
-                                </select>
+									
+								</select>
 							</fieldset>
 						</div>
 
