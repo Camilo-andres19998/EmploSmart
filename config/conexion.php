@@ -11,7 +11,7 @@ class Conectar {
         }
 
         try {
-            self::$dbh = new PDO("mysql:host=localhost;dbname=smarth", "root", "");
+            self::$dbh = new PDO("mysql:host=localhost;dbname=smarth", "root", "camilo12");
             self::$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return self::$dbh;
         } catch (PDOException $e) {
